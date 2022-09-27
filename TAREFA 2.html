@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#7DaysOfCode</title>
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">     
+</head>
+<body>
+    <header>
+        <img src="banner7days.png"  id="banner" alt="Logo do #7Days Of Code">
+    </header>
+
+    <main>
+        <h1>Tarefa - Lógica JS 2/7: Variáveis</h1>
+
+        <form>
+            <label for="nome">Qual o seu nome?</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+            <label for="idade">Qual sua idade?</label>
+            <input type="number" id="idade" placeholder="Digite sua idade" required>
+
+            <label for="linguagem">Qual linguagem de programação você está estudando?</label>
+            <input type="text" id="linguagem" placeholder="Linguagem de programação" required>
+
+            <label for="gostando">Você está gostando dessa linguagem? <br> Digite "1" para Sim ou "2" para Não.</label>
+            <input type="number" id="gostando" placeholder="Digite 1 ou 2" required>
+
+            <button id="enviar" type="button" onclick="resultado()">Enviar</button>
+        </form>
+    </main>
+        <p id="resposta1"></p>  <p id="resposta2"></p>  
+
+        <div id="videoAlura">
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/Uh-GNH-t89w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+     
+    <script src="main.js"></script>
+</body>
+</html>

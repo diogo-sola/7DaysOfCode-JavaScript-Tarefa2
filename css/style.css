@@ -1,0 +1,65 @@
+#banner {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto Mono';
+    background: #07080a;
+}
+
+h1 {
+    background: #07080a;
+    color: #f9ff00;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 15px;
+    
+}
+
+form {
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    margin: 15px;
+    font-size: 20px;
+}
+
+input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+
+label {
+    margin: 15px;
+}
+
+#enviar {
+    background: #183e43;
+    font-size: 20px;
+    color: #39f6eb;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#resposta1, #resposta2 {
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+    padding: 10px 0 30px
+}
+
+#enviar:hover {
+    transform: scale(1.2);
+}
+
+#videoAlura {
+    display: none;
+    margin: auto;
+    width: 560px;    
+}
