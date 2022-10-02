@@ -1,4 +1,4 @@
-# 7daysofcode-JavaScript-Tarefa2 - Rafaella Ballerini - ALURA
+# Desafio Alura - 7daysofcode-JavaScript 
 
- Tarefa nº2 de 7 do desafio 7DaysOfCode de Javascript da Alura com a Proessora Rafaella Ballerini!
+ Esse é o desafio 2 de um total de 7, chamado de **7DaysOfCode**. 
  O curso é voltado para JavaScript, porém já fiz a parte de HTML e CSS.
